@@ -254,13 +254,6 @@ footer {
 .footer-bottom {
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: aquamarine;
 }
 
-.footer-bottom > * {
-  padding: 5px 10px;
-  border-radius: 20px;
-  background-color:#fff;
-}
 
