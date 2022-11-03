@@ -32,6 +32,7 @@ ul{
     color: #7188d9;
 }
 
+
 /*WIDTH*/
 .wh-50{
     min-width: 50%;
@@ -103,6 +104,11 @@ ul{
 }
 
 .blue-button{
+    background-color: #8ea1e1;
+    color: #fff;
+}
+
+.register-button{
     background-color: #8ea1e1;
     color: #fff;
 }
@@ -200,7 +206,9 @@ header{
 .big-block{
     height: 500px;
     text-align: center;
-    background-color: #228b22;
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .adventure-block{
@@ -226,6 +234,10 @@ footer {
   padding-bottom: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid purple;
+}
+
+.flag-ita{
+    width: 30px;
 }
 
 .footer-top .footer-left {
