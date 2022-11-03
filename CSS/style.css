@@ -41,6 +41,19 @@ ul{
     width: 30px;
 }
 
+.wave{
+    background-image:url(../img/wave.svg);
+    opacity: 5%;
+    height: 100px;
+}
+
+.wave-flip{
+    background-image:url(../img/wave.svg);
+    opacity: 5%;
+    height: 100px;
+    transform: scaleY(-1);
+}
+
 
 /*WIDTH*/
 .wh-50{
