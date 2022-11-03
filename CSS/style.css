@@ -141,7 +141,6 @@ header{
 }
 
 .jumbo-content{
-   height: 300px;
    width: 700px;
    text-align: center;
 }
@@ -178,15 +177,15 @@ header{
 /*BIG CONTAINER*/
 
 .big-container{
+    flex-direction: column;
     background-color: #d3d3d3;
     color: #000;
-    height: 800px;
+    min-height: 700px;
     text-align: center;
 }
 
 .big-block{
-    height: 600px;
-    width: 900px;
+    height: 500px;
     text-align: center;
     background-color: #228b22;
 }
