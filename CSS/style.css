@@ -24,6 +24,14 @@ body{
     line-height: 40px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.purple-text{
+    color: #7188d9;
+}
+
 /*WIDTH*/
 .wh-50{
     min-width: 50%;
@@ -201,8 +209,6 @@ header{
     
 }
 
-
-
 /*MEDIUM-CONTAINER*/
 .nav-footer{
 
@@ -216,7 +222,7 @@ footer {
 }
 
 .footer-top {
-  height: 600px;
+  height: 500px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid purple;
@@ -239,6 +245,10 @@ footer {
 
 .footer-nav > div {
   flex-basis: 25%;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px;
+  line-height: 30px;
 }
 
 .footer-bottom {
@@ -253,3 +263,4 @@ footer {
   border-radius: 20px;
   background-color:#fff;
 }
+
