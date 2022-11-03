@@ -81,7 +81,7 @@ body{
     font-size: 10px;
 }
 
-.jumbo-button{
+.button{
     display: inline-block;
     padding: 15px;
     border-radius: 20px;
@@ -89,8 +89,13 @@ body{
     border: none;
 }
 
-.blk{
+.blk-button{
     background-color: #000;
+    color: #fff;
+}
+
+.blue-button{
+    background-color: #8ea1e1;
     color: #fff;
 }
 
@@ -174,7 +179,7 @@ header{
     width: 30%;
 }
  
-/*BIG CONTAINER*/
+/*BIG FOOTER*/
 
 .big-container{
     flex-direction: column;
@@ -189,6 +194,14 @@ header{
     text-align: center;
     background-color: #228b22;
 }
+
+.adventure-block{
+    width: 50%;
+    flex-direction: column;
+    
+}
+
+
 
 /*MEDIUM-CONTAINER*/
 .nav-footer{
@@ -211,6 +224,7 @@ footer {
 
 .footer-top .footer-left {
   flex-basis: 30%;
+  flex-direction: column;
   background-color: pink;
 }
 
