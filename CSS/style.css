@@ -11,6 +11,7 @@ body{
     font-size: 15px;
     font-weight: 700;
     color: #fff;
+    line-height: 20px;
 }
 
 .container {
@@ -18,10 +19,7 @@ body{
     margin: 0 auto;
   }
 
-.flex{
-    display: flex;
-}
-
+/*WIDTH*/
 .wh-50{
     min-width: 50%;
 }
@@ -30,13 +28,45 @@ body{
     min-width: 25%;
 }
 
+/*PADDING*/
+.pd-10{
+    padding: 10px;
+}
+
+.pd-20{
+    padding: 20px;
+}
+
+.pd-30{
+    padding: 30px;
+}
+
+/*MARGIN*/
+.mg-10{
+    margin: 10px;
+}
+
+.mg-20{
+    margin: 20px;
+}
+.mg-30{
+    margin: 30px;
+}
+
+/*FLEX*/
 .reverse{
     flex-direction: row-reverse;
+}
+
+.flex{
+    display: flex;
 }
 
 .border{
     border: black 2px dashed;
 }
+
+/*BUTTONS*/
 
 .nav-button{
     padding: 10px;
@@ -44,6 +74,19 @@ body{
     background-color:#fff;
     border: none;
     font-size: 10px;
+}
+
+.jumbo-button{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:#fff;
+    border: none;
+}
+
+.blk{
+    background-color: #000;
+    color: #fff;
 }
 
 
@@ -91,13 +134,16 @@ header{
     height: 400px;
     justify-content: center;
     align-items: center;
-    border-bottom: #add8e6 solid 1px;
 }
 
-.jumb-content{
-   background-color: #ee82ee;
+.title{
+    font-size: 50px;
+}
+
+.jumbo-content{
    height: 300px;
    width: 700px;
+   text-align: center;
 }
 
 
