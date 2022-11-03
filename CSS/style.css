@@ -7,9 +7,13 @@
 
 /*UTILITY*/
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
   }
+
+body{
+    font-family: sans-serif;
+}
 
 .flex{
     display: flex;
@@ -44,13 +48,12 @@
 
 header{
     height: 100px;
-    background-color: #add8e6;
+    background-color: #3161e0;
     justify-content: space-around;
     align-items: center;
 }
 
 .nav-block{
-    width: 800px;
     height: 50px;
 }
 
@@ -75,7 +78,7 @@ header{
 
 /*MAIN*/
 
-.main-container{
+.jumbotron{
     background-color: #00008b;
     height: 400px;
     justify-content: center;
@@ -83,7 +86,7 @@ header{
     border-bottom: #add8e6 solid 1px;
 }
 
-.main-block{
+.jumb-content{
    background-color: #ee82ee;
    height: 300px;
    width: 700px;
@@ -107,17 +110,16 @@ header{
 
 .content-block{
     height: 400px;
-    width: 800px;
 }
 
 .content-big{
     background-color: #1e90ff;
-    width: 70%;
+    width: 60%;
 }
 
 .content-small{
     background-color: #ffc0cb;
-    width: 30%;
+    width: 40%;
 }
  
 /*BIG CONTAINER*/
